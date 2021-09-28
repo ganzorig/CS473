@@ -22,12 +22,16 @@ class MainActivity : AppCompatActivity() {
 
     fun addFood(view: View) {
         val text = inputText.text.toString()
+        var alertText = "Added $text"
         if (text.isNotEmpty()) {
             foods.addFood(text)
             inputText.text.clear()
-            val toast = Toast.makeText(applicationContext,"Added $text", Toast.LENGTH_LONG)
-            toast.show();
+        } else {
+            alertText = "Please insert your Food name"
         }
+
+        val toast = Toast.makeText(applicationContext,alertText, Toast.LENGTH_LONG)
+        toast.show();
     }
 
     fun decideFood(view: View) {
