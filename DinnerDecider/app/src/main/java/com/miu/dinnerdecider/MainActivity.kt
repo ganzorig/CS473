@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             alertText = "Please insert your Food name"
         }
 
-        val toast = Toast.makeText(applicationContext,alertText, Toast.LENGTH_LONG)
+        val toast = Toast.makeText(applicationContext, alertText, Toast.LENGTH_LONG)
         toast.show();
     }
 
