@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity() {
                 table.addView(tableRow)
 
                 // clear edit text
-//                version.text.clear()
-//                name.text.clear()
+                version.text.clear()
+                name.text.clear()
 
                 Toast.makeText(applicationContext, "Added new row", Toast.LENGTH_LONG).show()
             }
