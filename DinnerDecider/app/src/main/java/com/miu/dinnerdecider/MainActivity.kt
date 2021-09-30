@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val toast = Toast.makeText(applicationContext, alertText, Toast.LENGTH_LONG)
-        toast.show();
+        toast.show()
     }
 
     fun decideFood(view: View) {

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WallMartLogin</string>
+    <string name="sign_in_title">Sign in to your account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dont_have">Don\'t have an account?</string>
+    <string name="new_account">Create a new account</string>
+</resources>
