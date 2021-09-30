@@ -1,6 +1,7 @@
 package com.miu.tablelayout
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -29,12 +30,12 @@ class MainActivity : AppCompatActivity() {
                 val columnOne = TextView(this)
                 columnOne.text = version.text.toString()
                 columnOne.setPadding(10)
-                columnOne.setBackgroundColor(R.color.pink)
+                columnOne.setBackgroundColor(Color.parseColor("#f368e0"))
 
                 val columnTwo = TextView(this)
                 columnTwo.text = name.text.toString()
                 columnTwo.setPadding(10)
-                columnTwo.setBackgroundColor(R.color.pink)
+                columnTwo.setBackgroundColor(Color.parseColor("#f368e0"))
 
                 tableRow.addView(columnOne)
                 tableRow.addView(columnTwo)
@@ -43,8 +44,8 @@ class MainActivity : AppCompatActivity() {
                 table.addView(tableRow)
 
                 // clear edit text
-                version.text.clear()
-                name.text.clear()
+//                version.text.clear()
+//                name.text.clear()
 
                 Toast.makeText(applicationContext, "Added new row", Toast.LENGTH_LONG).show()
             }

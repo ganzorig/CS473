@@ -5,4 +5,6 @@
     <string name="sign_in">Sign In</string>
     <string name="dont_have">Don\'t have an account?</string>
     <string name="new_account">Create a new account</string>
+    <string name="email">Email address (required)</string>
+    <string name="password">Password (required)</string>
 </resources>
