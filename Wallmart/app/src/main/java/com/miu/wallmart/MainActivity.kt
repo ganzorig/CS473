@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        println(result)
         if (result.resultCode == Activity.RESULT_OK) {
             val data: Intent? = result.data
             val serUser = data!!.getSerializableExtra("user")

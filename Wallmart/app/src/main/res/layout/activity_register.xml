@@ -53,6 +53,7 @@
 
         <EditText
             android:id="@+id/firstname"
+            android:inputType="textPersonName"
             style="@style/input"/>
 
         <TextView
@@ -62,6 +63,7 @@
 
         <EditText
             android:id="@+id/lastname"
+            android:inputType="textPersonName"
             style="@style/input" />
 
         <TextView
