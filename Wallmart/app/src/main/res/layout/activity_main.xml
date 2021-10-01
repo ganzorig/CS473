@@ -80,22 +80,23 @@
             android:text="@string/forgot_password"
             android:clickable="true"
             android:autoLink="all"
-            android:onClick="openUrl"
+            android:onClick="forgotPassword"
             android:textSize="13sp"
             android:textColor="@color/dark_gray"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_signin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="56dp"
-            android:theme="@style/Widget.AppCompat.Button.Colored"
             android:backgroundTint="@color/blue"
             android:text="@string/sign_in"
+            android:minHeight="56dp"
             android:textAllCaps="false"
             android:textColor="@color/white"
+            android:theme="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -113,7 +114,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/button_signin" />
 
         <Button
             android:id="@+id/button2"

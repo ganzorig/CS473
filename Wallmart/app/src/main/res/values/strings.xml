@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wallmart</string>
+    <string name="sign_in_title">Sign in to your account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="dont_have">Don\'t have an account?</string>
+    <string name="new_account">Create a new account</string>
+    <string name="email">Email address (required)</string>
+    <string name="password">Password (required)</string>
+    <string name="str_electronic">Electronics</string>
+    <string name="str_clothes">Clothing</string>
+    <string name="str_beauty">Beauty</string>
+    <string name="str_food">Food</string>
+    <string name="str_firstname">First name*</string>
+    <string name="str_lastname">Last name*</string>
+    <string name="str_email">Email address*</string>
+    <string name="str_password">Password*</string>
+    <string name="str_required">* required field</string>
+    <string name="str_create">Create your account</string>
+    <string name="str_register">Create Account</string>
+</resources>
