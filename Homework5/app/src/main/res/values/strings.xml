@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">Homework5</string>
+    <string name="str_prob1">Problem1: Quiz App</string>
+    <string name="str_prob2">Problem2: Shopping</string>
+    <string name="str_prob3">Problem3: Recycler View</string>
+    <string name="str_electronic">Electronics</string>
+    <string name="str_clothes">Clothing</string>
+    <string name="str_beauty">Beauty</string>
+    <string name="str_food">Food</string>
+    <string name="str_welcome">Welcome bganzorig@miu.edu</string>
+    <string name="q1">What is the Kotlin double-bang (!!) operator?</string>
+    <string name="ans1">The not-null assertion operator</string>
+    <string name="ans2">The null assertion operator</string>
+    <string name="ans3">Elvis operator</string>
+    <string name="q2">What are some of the features which are there in Kotlin but not In Java?</string>
+    <string name="q2ans1">Null Safety</string>
+    <string name="q2ans2">Data classes</string>
+    <string name="q2ans3">Checked exceptions</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_submit">Submit</string>
+
+    <string-array name="arr_clothes">
+        <item>Apron</item>
+        <item>Band Uniform</item>
+        <item>Baseball Jersey</item>
+        <item>Bathrobe</item>
+        <item>Bell Bottoms</item>
+        <item>Beret</item>
+        <item>Bermuda Shorts</item>
+        <item>Blazer</item>
+        <item>Blouse</item>
+        <item>Bomber Jacket</item>
+        <item>Boots</item>
+        <item>Burka</item>
+        <item>Business Suit</item>
+        <item>Caftan</item>
+        <item>Cap and Gown</item>
+        <item>Cardigan</item>
+        <item>Cargo Shorts</item>
+        <item>Chador</item>
+        <item>Cheerleader Outfit</item>
+        <item>Culottes</item>
+        <item>Denim Jacket</item>
+        <item>Dhoti</item>
+        <item>Duster</item>
+        <item>Fatigues</item>
+        <item>Flannel Shirt</item>
+        <item>Flip Flops</item>
+        <item>Football Jersey</item>
+        <item>Gloves</item>
+        <item>A Great Bathing Suit</item>
+        <item>Habit</item>
+        <item>Halter Top</item>
+        <item>Hanbok</item>
+        <item>Hawaiian Shirt</item>
+        <item>Hazmat Suit</item>
+        <item>Hockey Gear</item>
+        <item>Hoodies</item>
+        <item>Hoop Skirt</item>
+        <item>Jeans</item>
+        <item>Jodhpurs</item>
+        <item>Kasaya</item>
+        <item>Kilt</item>
+        <item>Kimono</item>
+        <item>Kippah or Yarmulke</item>
+        <item>Knocked Dead Cocktail Dress</item>
+        <item>Leather Jacket</item>
+        <item>Lederhosen</item>
+        <item>Leggings</item>
+        <item>Letter Jacket</item>
+        <item>Mandarin Collar Shirts</item>
+        <item>Miniskirt</item>
+        <item>Summer Whites</item>
+        <item>Nehru Jacket</item>
+        <item>Night Gown</item>
+        <item>Overalls</item>
+        <item>Pajamas</item>
+        <item>Palazzo Pants</item>
+        <item>Parachute Pants</item>
+        <item>Parka</item>
+        <item>Pedal Pushers</item>
+        <item>Pinafore</item>
+        <item>Pointe</item>
+        <item>Polo</item>
+        <item>Ponchos/Capes</item>
+        <item>Poodle Skirts</item>
+        <item>Prom Dress</item>
+        <item>Referee Uniform</item>
+        <item>Rugby Shirt</item>
+        <item>Sari</item>
+        <item>Sarong</item>
+        <item>Scarf</item>
+        <item>Scrubs</item>
+        <item>Shalwar Kameez</item>
+        <item>Shawls</item>
+        <item>Shorts</item>
+        <item>Shtreimel</item>
+        <item>Skating Dress</item>
+        <item>Ski Suit</item>
+        <item>Skirt</item>
+        <item>Slacks</item>
+        <item>Soccer Shirt</item>
+        <item>Socks</item>
+        <item>Sundress</item>
+        <item>Sweaters</item>
+        <item>Thobe</item>
+        <item>Tie</item>
+        <item>Toga</item>
+        <item>Top Hat</item>
+        <item>Trench Coat</item>
+        <item>TShirt</item>
+        <item>Tube Top</item>
+        <item>Turban</item>
+        <item>Turtleneck</item>
+        <item>Tutu</item>
+        <item>Tuxedo</item>
+        <item>Twinset</item>
+        <item>Wear a Lab Coat</item>
+        <item>Wedding Dress</item>
+        <item>Wet Suit</item>
+        <item>Yoga Pants</item>
+    </string-array>
+    <string-array name="arr_electronics">
+        <item>Air purifier</item>
+        <item>Air conditioner</item>
+        <item>Alarm clock</item>
+        <item>Backup charger</item>
+        <item>Bread maker</item>
+        <item>Banknote counter</item>
+        <item>Bluetooth speaker</item>
+        <item>Calculator</item>
+        <item>Car toy</item>
+        <item>Ceiling fan</item>
+        <item>Chandelier</item>
+        <item>Coffee maker</item>
+        <item>Digital camera</item>
+        <item>Dishwasher</item>
+        <item>Doorbell camera</item>
+        <item>Dvd player</item>
+        <item>Earphones</item>
+        <item>Electric frying pan</item>
+        <item>Electric guitar</item>
+        <item>Electric pencil sharpener</item>
+        <item>Electric razor</item>
+        <item>Exhaust fan</item>
+        <item>External hard drive</item>
+        <item>Fan</item>
+        <item>Facial cleansing machine</item>
+        <item>Fax</item>
+        <item>Fish tank</item>
+        <item>Floor lamp</item>
+        <item>Game controller</item>
+        <item>Garage</item>
+        <item>Grandfather clock</item>
+        <item>Hair dryer</item>
+        <item>Headset</item>
+        <item>Kitchen scale</item>
+        <item>Hair straightening machine</item>
+        <item>Laser printer</item>
+        <item>Lawn mower</item>
+        <item>Meat grinder</item>
+        <item>Microwave</item>
+        <item>Mosquito racket</item>
+        <item>Mp3 player</item>
+        <item>Piano</item>
+        <item>Radiator</item>
+        <item>Radio</item>
+        <item>Reading lamp</item>
+        <item>Refrigerator</item>
+        <item>Safe</item>
+        <item>Robotic vacuum cleaner</item>
+        <item>Sandwich maker</item>
+        <item>Scale</item>
+        <item>Scanner</item>
+        <item>Sewing machine</item>
+        <item>Smart television</item>
+        <item>Smartphone</item>
+        <item>Speakers</item>
+        <item>Tablet</item>
+        <item>Toaster</item>
+        <item>Vacuum cleaner</item>
+        <item>Walkie talkie</item>
+        <item>Washing machine</item>
+        <item>Watch</item>
+        <item>Water pumps</item>
+        <item>Water purifier</item>
+        <item>Wall fan</item>
+        <item>Water heater</item>
+        <item>Webcam</item>
+    </string-array>
+    <string-array name="arr_beauties">
+        <item>Baby Shampoos</item>
+        <item>Lotions</item>
+        <item>Bubble Bath</item>
+        <item>Powders</item>
+        <item>Eyebrow Pencil</item>
+        <item>Eyeliner</item>
+        <item>Eye Shadow</item>
+        <item>Eye Lotion</item>
+        <item>Mascara</item>
+        <item>Perfumes</item>
+        <item>Sachets</item>
+        <item>Hair Tints</item>
+        <item>Blushers</item>
+        <item>Foundations</item>
+        <item>Cuticle Softeners</item>
+        <item>Douches</item>
+        <item>Depilatories</item>
+    </string-array>
+    <string-array name="arr_foods">
+        <item>Apples</item>
+        <item>Avocados</item>
+        <item>Bananas</item>
+        <item>Blueberries</item>
+        <item>Oranges</item>
+        <item>Strawberries</item>
+        <item>Other healthy fruits</item>
+        <item>Eggs</item>
+        <item>Lean beef</item>
+        <item>Chicken breasts</item>
+        <item>Lamb</item>
+        <item>Almonds</item>
+        <item>Chia seeds</item>
+        <item>Coconuts</item>
+        <item>Walnuts</item>
+        <item>Asparagus</item>
+        <item>Broccoli</item>
+    </string-array>
+</resources>
